@@ -37,6 +37,7 @@ body{
 }
 #start{
     background-color: bisque;
+    margin-bottom: 10px;
 }
 #stop{
     background-color: aqua;
