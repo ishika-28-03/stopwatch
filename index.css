@@ -12,6 +12,8 @@ body{
 #container{
     color: #c6c7be;
     border: solid;
+    width:60%;
+    text-align:center;
 }
 .digit{
     font-size: 150px;
