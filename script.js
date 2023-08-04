@@ -18,10 +18,10 @@ function reset(){
     min=0;
     sec=0;
     count=0;
-    document.getElementById("hr").innerHTML=hr;
-    document.getElementById("min").innerHTML=min;
-    document.getElementById("sec").innerHTML=sec;
-    document.getElementById("count").innerHTML=count;
+    document.getElementById("hr").innerHTML="00";
+    document.getElementById("min").innerHTML="00";
+    document.getElementById("sec").innerHTML="00";
+    document.getElementById("count").innerHTML="00";
 }
 function stopwatch(){
     if(timer==true){
@@ -38,6 +38,8 @@ function stopwatch(){
             min=0;
             sec=0;
         }
+        
+
         document.getElementById("hr").innerHTML=hr;
         document.getElementById("min").innerHTML=min;
         document.getElementById("sec").innerHTML=sec;
