@@ -3,10 +3,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50rem;
 }
 #div{
-    padding:10hv;
+    padding:10rex;
 
 }
 #container{
@@ -14,10 +14,10 @@ body{
     border: solid;
     width:60%;
     text-align:center;
-    border-radius: 10%
+    border-radius: 10%;
 }
 .digit{
-    font-size: 150px;
+    font-size: 20rex;
     font-weight: bold;
 }
 .txt{
