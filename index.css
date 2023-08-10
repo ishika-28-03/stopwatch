@@ -14,7 +14,7 @@ body{
     border: solid;
     width:60%;
     text-align:center;
-    border-radius: 300%;
+    border-radius: 10%
 }
 .digit{
     font-size: 150px;

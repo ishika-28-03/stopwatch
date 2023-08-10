@@ -38,12 +38,39 @@ function stopwatch(){
             min=0;
             sec=0;
         }
-        
+        if(count==100){
+            sec=sec+1;
+            count=0;
+        }
+        if(sec==60){
+            min=min+1;
+            sec=0;
+        } if(min==60){
+            hr=hr+1;
+            min=0;
+            sec=0;
+        }
+        var hrs=hr;
+        var ms=min;
+        var secs=sec;
+        var counts=count;
 
-        document.getElementById("hr").innerHTML=hr;
-        document.getElementById("min").innerHTML=min;
-        document.getElementById("sec").innerHTML=sec;
-        document.getElementById("count").innerHTML=count;
+        if(hr<10){
+            hrs="0"+hr;
+        }
+        if(min<10){
+            ms="0"+min;
+        }if(sec<10){
+            secs="0"+sec;
+        }if(count<10){
+            counts="0"+count;
+        }
+
+
+        document.getElementById("hr").innerHTML=hrs;
+        document.getElementById("min").innerHTML=ms;
+        document.getElementById("sec").innerHTML=secs;
+        document.getElementById("count").innerHTML=counts;
         
 
 
