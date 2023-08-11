@@ -18,7 +18,7 @@ function reset(){
     min=0;
     sec=0;
     count=0;
-    document.getElementById("hr").innerHTML="00";
+    document.getElementById("hr").innerHTML="001";
     document.getElementById("min").innerHTML="00";
     document.getElementById("sec").innerHTML="00";
     document.getElementById("count").innerHTML="00";
